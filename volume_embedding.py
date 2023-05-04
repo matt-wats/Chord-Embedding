@@ -126,7 +126,7 @@ for epoch in range(num_epochs):
 #---------------------------------------------------------------------------------------
 # show losses
 
-print(losses) #prev best 2e-1, 64, ~300, 128iter
+print(losses)
 plt.semilogy(losses)
 plt.title("Epoch losses")
 plt.show()
